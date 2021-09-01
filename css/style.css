@@ -1,0 +1,84 @@
+#sec1{
+    border: 1px solid black;
+    background-color: rgb(139, 134, 134);
+}
+
+#sec2{
+    border: 1px solid black;
+    background-color: rgb(139, 134, 134);
+}
+
+#sec3{
+    border: 1px solid black;
+    background-color: rgb(139, 134, 134);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+h3{
+    width: 25%;
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-left: 75%; 
+    position: relative;
+
+}
+#tit1{
+    background-color: aqua;
+}
+#tit2{
+    background-color: brown;
+}
+#tit3{
+    background-color: chocolate;
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    #sec1{
+        width: 45%;
+        float: left;
+        
+    }
+    #sec2{
+        width: 45%;
+        float: left;
+        margin-left: 9%;
+    }
+    #sec3{
+        width: 100%;
+        float: right;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width:992px){
+    #sec1{
+        width: 30%;
+        float: left;
+    }
+    #sec2{
+        width: 30%;
+        float: left;
+        margin-left: 5%;
+    }
+    #sec3{
+        width: 30%;
+        float: left;
+        margin-left: 4%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width:767px){
+    #sec1, #sec2, #sec3{
+        margin-bottom: 5%;
+    }
+   
+    
+    
+}
+
